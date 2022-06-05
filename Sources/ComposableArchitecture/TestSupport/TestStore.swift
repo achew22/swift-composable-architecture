@@ -1,4 +1,3 @@
-#if DEBUG
   import Combine
   import CustomDump
   import Foundation
@@ -545,4 +544,3 @@
       self.scope(state: toLocalState, action: { $0 })
     }
   }
-#endif
